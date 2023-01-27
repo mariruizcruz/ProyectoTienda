@@ -1,0 +1,19 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 ene 2023, 18:56:30
+    Author     : Melissa Ruiz Cruz
+*/
+
+.block{
+    
+    /*el background-color es solo para el color*/ 
+    background-color: darkorange;
+    font-variant-position: center;
+    /*el border es para el tamaño*/
+    border: 10px solid white; 
+    padding: 10px;
+}
+

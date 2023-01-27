@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 ene 2023, 18:56:23
+    Author     : Melissa Ruiz Cruz
+*/
+.block{
+    
+    /*el background-color es solo para el color*/ 
+    background-color: #ccccff;
+    /*el border es para el tamaño*/
+    border: 10px solid white; 
+    padding: 10px;
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*box-sizing: border-box;*/
+    
+}
+
+.static{
+    
+    position: static;
+    border: 3px solid blueviolet;
+    top: 400px;
+    left: 500px;
+    
+}
+
+.relative{
+    
+    position: relative;
+    border: 3px solid blueviolet;
+    top: 400px;
+    left: 500px;
+    width: 400px;
+    height: 400px;
+}
+
+.fixed{
+    
+    position: fixed;
+    border: 3px solid blueviolet;
+    top: 150px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.absolte{
+    
+    position: absolute;
+    border: 3px solid blueviolet;
+    top: 80px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
