@@ -3,17 +3,125 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : 26 ene 2023, 18:56:30
+    Created on : 2 feb 2023, 20:22:18
     Author     : Melissa Ruiz Cruz
 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-.block{
-    
-    /*el background-color es solo para el color*/ 
-    background-color: darkorange;
-    font-variant-position: center;
-    /*el border es para el tamaño*/
-    border: 10px solid white; 
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Merriweather', serif;
 }
 
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/fondo.png);
+    background-position: center;
+    background-size: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+    
+}
+nav{
+    padding-left: 60px;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.content p{
+    font-size: 20px;
+    color: #000;
+}
+
+.content{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.fondo{
+    height: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: 160px;  
+}
+/*********************************************************/
+/*ESTO ES LO QUE YO HICE */
+/*#logo{
+  font-size:50px; 
+  text-transform:uppercase; 
+  color:white; 
+  font-weight:bold;
+  float:left;
+  padding: 20px; 
+  margin-left:5%;
+  
+}
+nav a{
+  float:right;
+  text-decoration:none;
+  color:white; 
+  font-size:18px; 
+  padding: 25px 35px; 
+  display:inline-block; 
+  transition: all 0.5s ease 0s;
+}
+
+header{
+  overflow:hidden;
+  background-color:#990099; 
+  margin-bottom:50px;
+}*/
+
+/*****************************ESTO ES DE LA PARTE DE HTML*/
+/*body{
+  margin:0px; 
+  padding:0px; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+<header> <!-- REPRESENTA UN GRUPO DE AYUDAS INTRODUCTORIAS -->
+            <section> <!-- SE CREA UN BLOQUE PARA EL DISEÑO -->
+                
+            <div id ="logo">CRUNCHYROLL</div>
+        
+            <nav> <!-- SE EMPIEZA CON EL NAVBAR -->
+                <a href="index.html">Index</a>
+                <a href="home.html">Home</a>
+                <a href="practica.html">PRACTICA</a>
+                <a href="">FAQ</a> 
+                
+            </nav>
+            </section>
+        </header>
+        <img src="images/dad.jpg" alt="Esto es mo logo"/>
+        */
