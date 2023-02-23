@@ -34,8 +34,9 @@ nav a:hover{
     color: #fff;
 }
 .encabezado-img{
-    background-image: url(img/dad.jpg);
-    height: 500px;
+    background-image: url(../images/sukuna.jpg);
+    height: 100vh;
+    width: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
