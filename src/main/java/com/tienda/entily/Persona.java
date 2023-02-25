@@ -31,7 +31,7 @@ public class Persona implements Serializable {
     private String email;
     
     @ManyToOne
-    @JoinColumn(name = "paieses_id")
+    @JoinColumn(name = "paises_id")
     private Pais pais;
 
     public long getId() {
