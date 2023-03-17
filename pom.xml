@@ -8,11 +8,11 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>tienda02</groupId>
-	<artifactId>Tienda</artifactId>
+	<groupId>Tienda</groupId>
+	<artifactId>tienda</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tienda</name>
-	<description>Proyecto de Desarrollo Web</description>
+	<description>Desarrollo Web</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -53,6 +53,16 @@
 	  <groupId>mysql</groupId>
 	  <artifactId>mysql-connector-java</artifactId>
 	  <version>8.0.25</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>com.mysql</groupId>
+	  <artifactId>mysql-connector-j</artifactId>
+	  <version>8.0.31</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>Gym</groupId>
+	  <artifactId>Gym</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
 	 </dependency>
 	</dependencies>
 
