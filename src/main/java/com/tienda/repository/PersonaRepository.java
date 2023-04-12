@@ -5,12 +5,17 @@
 package com.tienda.repository;
 
 import com.tienda.entily.Pais;
-import com.tienda.entily.Persona;import org.springframework.data.repository.CrudRepository;
+import com.tienda.entily.Persona;import java.util.List;
+import org.springframework.data.repository.CrudRepository;
 
 /**
  *
  * @author Melissa Ruiz Cruz
  */
 public interface PersonaRepository extends CrudRepository<Persona,Long>{
+    
+    Persona findByNombre (String nombre);
+    List<Persona> findByApellido1(String apellido1);
+    
     
 }

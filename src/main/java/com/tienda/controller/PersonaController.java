@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
@@ -68,4 +69,13 @@ public class PersonaController {
         model.addAttribute("paises",listaPaises);
         return "crear";
     }
+    
+    @GetMapping("/buscar")
+    public String search(@RequestParam("consulta") String consulta, Model model) {
+        List<Persona> personas = personaService.findByApellido1(consulta);
+        model.addAttribute("titulo", "Personas con ese apellido");
+        model.addAttribute("persona", personas);
+        return "personas";
+    }
+
 }

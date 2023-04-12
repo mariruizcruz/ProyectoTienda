@@ -38,6 +38,8 @@ public class Persona implements Serializable {
     private String roles = "";
     private String permissions = "";
     
+//    private String apellido = "";
+    
     @ManyToOne
     @JoinColumn(name = "paises_id")
     private Pais pais;
@@ -130,6 +132,18 @@ public class Persona implements Serializable {
     public void setPermissions(String permissions) {
         this.permissions = permissions;
     }
+    
+    //***************************************
+//
+//    public String getApellido() {
+//        return apellido;
+//    }
+//
+//    public void setApellido(String apellido) {
+//        this.apellido = apellido;
+//    }
+//    
+//    
     
   //****************************************************************  
     public List<String> getRoleList(){
